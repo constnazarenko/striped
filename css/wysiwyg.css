@@ -1,0 +1,6 @@
+/* $Id: wysiwyg.css 4 2011-01-20 10:45:27Z tigra $ */
+@CHARSET "UTF-8";
+body {
+    background: transparent none !important;
+    /*color: white;*/
+}

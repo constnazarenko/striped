@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+/* editor style */
+body {
+}
+.root-menu {
+    position: fixed;
+    z-index: 1500;
+    width: 4px; height: 22px;
+    left: 2px; top: 2px;
+    overflow: hidden;
+    margin: 0; padding: 0 0 0 18px;
+    background: lightyellow url('../images/favicon.png') 3px 3px no-repeat;
+    border: 1px solid rgba(255, 128, 0, 0.5);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+    .root-menu li {line-height: 15px;}
+    .root-menu a {font-size: 12px; text-decoration: underline; color: #2a00c1;}
+    .root-menu a:hover {text-decoration: none;/* color: #ff8a00 !important;*/}
+    .root-menu a:visited {text-decoration: underline; color: #551a8a;}
+    .root-menu a:active {text-decoration: underline; color: #cc1111;}
+
+.root-menu:hover {
+    width: auto; height: auto;
+}
+    .root-menu ul {
+        margin: 2px 0 5px 0; padding: 0;
+        list-style: none;
+    }
+        .root-menu ul li {
+            margin: 0; padding: 0 5px;
+        }

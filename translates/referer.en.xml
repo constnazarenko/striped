@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="ref_your_link">You referral link is</translate>
+    <translate keyword="ref_time">Time</translate>
+    <translate keyword="ref_referer">From whom</translate>
+    <translate keyword="ref_http_referer">Where from</translate>
+    <translate keyword="ref_ip">IP</translate>
+    <translate keyword="ref_access_point">Access point</translate>
+    <translate keyword="ref_registered">Registered</translate>
+</translates>

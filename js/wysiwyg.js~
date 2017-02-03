@@ -1,0 +1,8 @@
+/* $Id: wysiwyg.js 4 2011-01-20 10:45:27Z tigra $ */
+jQuery(function($) {
+    
+    $('textarea.tinymce').tinymce({
+        //RUN SCRIPT HERE IF NEEDED
+    });
+    
+});

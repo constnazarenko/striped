@@ -1,0 +1,36 @@
+/* $Id: queries.css 4 2011-01-20 10:45:27Z tigra $ */
+#sqlqueries {
+    width: 100%;
+    font: normal 10px monospace;
+    color: #333;
+}
+#sqlqueries th {
+    background: #e8eef7;
+    border: 1px solid #69f;
+    padding: 3px;
+}
+#sqlqueries tr td {
+    background: #fff;
+    border: 1px solid #69f;
+    padding: 5px;
+    color: #036;
+}
+#sqlqueries tr:hover td {
+    background: #ffa;
+    color: #036;
+}
+#sqlqueries .zerro {
+    width: 20px;
+}
+#sqlqueries .first {
+    
+}
+#sqlqueries .second {
+    width: 150px;
+}
+#sqlqueries .third {
+    width: 80px;
+}
+#sqlqueries .fourth {
+    width: 80px;
+}

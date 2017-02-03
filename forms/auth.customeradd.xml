@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" action="" title="" label="" ajax="none">
+    <fieldgroup name="main">
+        <field name="redirectto" type="hidden" />
+        <field name="type" type="select" required="1">
+            <title>glb_type</title>
+        </field>
+        <field name="status" type="select" required="1">
+            <title>glb_status</title>
+        </field>
+        <field name="customer" type="text" required="1">
+            <title>au_lb_cname</title>
+            <patterns>
+                <pattern preset="length" message="frm_err_str_range"><item>1</item><item>20</item></pattern>
+                <pattern preset="regexp" message="au_err_uname_wrong"><item>/^[a-z][a-z0-9]*$/</item></pattern>
+            </patterns>
+        </field>
+        <field type="buttonset">
+            <title />
+            <buttons>
+                <button type="submit" title="frm_submit" />
+                <link href="customer/list/" title="frm_cancel" class="red" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

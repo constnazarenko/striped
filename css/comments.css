@@ -1,0 +1,177 @@
+/* $Id: comments.css 144 2011-01-19 11:28:27Z tigra $ */
+@CHARSET "UTF-8";
+
+.form-hider {
+    display: none;
+}
+.comments-add-form fieldset {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+    .comments-add-form fieldset .field {
+        width: 100%;
+        margin: 0; padding: 0;
+        border-bottom: none;
+    }
+    .comments-add-form fieldset .field:hover {
+        background: transparent;
+    }
+        .comments-add-form fieldset .field .title {
+            display: none;
+        }
+        .comments-add-form fieldset .field .control {
+            width: auto;
+            float: left;
+        }
+            .comments-add-form fieldset .field .control textarea {
+                width: 800px;
+                height: 155px;
+            }
+            .comments-add-form fieldset .field .control select {
+                width: auto;
+            }
+.comments-show-form {
+    cursor: pointer;
+    font-size: 130%;
+}
+.comments-myself {
+    display: none;
+}
+
+.comments h4 {
+    margin: 15px 0 5px 0 !important; padding: 10px;
+    font-size: 20px;
+    background: rgba(255, 80, 80, 0.5);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+    .comments .comment {
+        padding: 5px 0 0 0;
+    }
+    .comments .comment-body {
+        padding: 5px;
+        background: white;
+        border: 1px solid lightblue;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        border-radius: 5px;
+    }
+        .comments .comment-body .comment-text .deleted {
+            color: #AEA587;
+        }
+    .comments .comment-body.mine {
+        border-color: rgba(255, 80, 80, 0.5);
+    }
+    .comments .comment-body.unread {
+        border-width: 3px;
+    }
+    .comments .comment-body.system {
+        border-color: #008000;
+        background: #afa;
+        color: #008000;
+    }
+        .comments .comment-body.system .comment-text {
+            font-weight: bold;
+        }
+    .comments .comment-body.new-comment {
+        border-width: 3px;
+    }
+        .comments .comment .comment {
+            padding: 5px 0 0 15px;
+        }
+        .comments .comment .author {
+            float: left;
+            margin: 0; padding: 0  5px 0 0;
+        }
+            .comments .comment .author .username-link {
+                margin: 0; padding: 0;
+                font-size: 11px;
+            }
+        .comments .comment .date {
+            float: left;
+            padding: 0  5px 0 0;
+            font-style: italic;
+            color: #6E6547;
+        }
+        .comments .comment .buttons {
+            float: left;
+            position: relative;
+            padding-right: 50px;
+        }
+            .comments .comment .buttons a {
+                margin-right: 5px;
+            }
+            .comments .comment .buttons .comment-delete {
+                display: block;
+                float: left;
+                width: 16px; height: 16px;
+                background: url('../images/delete-16.png') no-repeat;
+            }
+                .comments .comment .buttons .comment-delete span {
+                    display: none;
+                }
+            .comments .comment .buttons .comment-restore {
+                display: block;
+                float: left;
+                width: 16px; height: 16px;
+                background: url('../images/restore-16.png') no-repeat;
+            }
+                .comments .comment .buttons .comment-restore span {
+                    display: none;
+                }
+            .comments .comment .buttons .scroll-down,
+            .comments .comment .buttons .scroll-up {
+                text-decoration: none;
+                border-bottom: 1px dotted #b5b5b5;
+                padding: 0 3px 0 3px;
+            }
+            .comments .comment .buttons .edit-links-no-hide,
+            .comments .comment .buttons .edit-links {
+                position: absolute;
+                top: 2px; right: 0;
+            }
+                .comments .comment .buttons .edit-links-no-hide a,
+                .comments .comment .buttons .edit-links a {
+                    margin: 0 1px; padding: 0;
+                }
+        .comments .comment .comment-text {
+            padding: 5px 0 0 5px;
+            font-size: 120%;
+        }
+        .comments .comment .toolbar {
+            font-size: 90%;
+        }
+            .comments .comment .toolbar .subcomm-new {
+                color: red;
+            }
+            .comments .comment .toolbar .caption {
+            	color: #6a4;
+            	margin-left: 20px;
+            }
+            .comments .comment .toolbar .stars {
+                display: block;
+                width: 16px; height: 16px;
+                margin-right: 5px;
+                float: left;
+                background: url('../images/stars-16.png') no-repeat top;
+            }
+            .comments .comment .toolbar .stars.starred {
+                background-position: bottom;
+            }
+        .comments .comment .comments-reply {
+            cursor: pointer;
+            font-size: 90%;
+            color: #aEa587;
+        }
+        
+.comments .toolbar {
+    color: #aEa587;
+}
+    .comments .toolbar a {
+        color: #6E6547;
+    }

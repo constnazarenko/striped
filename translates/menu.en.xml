@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="m_mainpage">Main page</translate>
+
+    <!-- root.menu -->
+    <translate keyword="MR_EDITMODE">Edit mode</translate>
+    <translate keyword="MR_CUSTOMERLIST">Customer list</translate>
+    <translate keyword="MR_USERLIST">Users list</translate>
+    <translate keyword="MR_ROLELIST">Roles list</translate>
+    <translate keyword="MR_SUDO">Switch user</translate>
+    <translate keyword="MR_LOGS_ACCESS">Access journal</translate>
+    <translate keyword="MR_LOGS_ACTIONS">Actions journal</translate>
+    <!-- ^root.menu^ -->
+    
+    <translate keyword="MENU_CANT_FIND_DESCRIPTOR">Unable to open menu-descriptor file.</translate>
+</translates>

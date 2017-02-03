@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="api_err_disabled">Извините. API отключен для этого сайта.</translate>
+    <translate keyword="api_err_limit_exceeded">Достигнут лимит запросов! Повторите попытку позже.</translate>
+    <translate keyword="api_err_limit_blocked">Действие заблокировано - исчерпан лимит запросов! Повторите попытку позже.</translate>
+    <translate keyword="api_mail_subj">API - лимит запросо почти исчерпан.</translate>
+    <translate keyword="api_mail_body">Здравствуйте, %customer%!
+Вы почти исчерпали один из лимитов запросов API.
+Лимит: %count% за %time%.
+Использовано: %current%.
+
+%sitename% %sitelink%
+    </translate>
+</translates>

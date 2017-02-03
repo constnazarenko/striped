@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" action="comments/add" local="1" ajax="none">
+    <fieldgroup name="main">
+        <field name="id" type="hidden" required="1" />
+        <field name="keyword" type="hidden" required="1" />
+        <field name="tree" type="hidden" required="1" />
+        <field name="passto" type="hidden" />
+        <field name="parent" type="hidden" />
+        <field name="text" type="textarea" required="1">
+            <title>COMMENTS_TEXT</title>
+        </field>
+        <field type="buttonset">
+            <buttons>
+                <button type="submit" name="submit" title="COMMENTS_SEND" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

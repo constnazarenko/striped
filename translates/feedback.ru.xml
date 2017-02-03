@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="FEEDBACK_LABEL">Форма обратной связи</translate>
+    <translate keyword="FEEDBACK_NAME">Имя</translate>
+    <translate keyword="FEEDBACK_EMAIL">E-mail</translate>
+    <translate keyword="FEEDBACK_PHONE">Телефон</translate>
+    <translate keyword="FEEDBACK_CITY">Город</translate>
+    <translate keyword="FEEDBACK_MESSAGE">Сообщение</translate>
+
+    <translate keyword="FEEDBACK_EMAIL_SUBJECT">Письмо обратной связи</translate>
+    <translate keyword="FEEDBACK_EMAIL_BODY_TEXT">Вам отправлено письмо обратной связи.
+%body%
+
+ТТХ: %browser%
+Хост: %hostname% (%ip%)</translate>
+    <translate keyword="FEEDBACK_EMAIL_BODY_HTML">&lt;p&gt;Вам отправлено письмо обратной связи.&lt;/p&gt;
+&lt;p&gt;%body%&lt;/p&gt;
+&lt;p&gt;ТТХ: %browser%&lt;/br&gt;
+Хост: %hostname% (%ip%)&lt;/p&gt;</translate>
+    <translate keyword="FEEDBACK_SUCCESSFULY_SENT">Ваш запрос успешно отправлен.</translate>
+</translates>

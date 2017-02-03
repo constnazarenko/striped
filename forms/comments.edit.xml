@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" action="" ajax="none">
+    <fieldgroup name="main">
+        <field name="id" type="hidden" required="1" />
+        <field name="text" type="textarea" required="1">
+            <title>COMMENTS_TEXT</title>
+        </field>
+        <field type="buttonset">
+            <buttons>
+                <button type="submit" name="submit" title="COMMENTS_SEND" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="api_err_disabled">Sorry. API is disabled for this site.</translate>
+    <translate keyword="api_err_limit_exceeded">Request limit exceeded! Please try again later.</translate>
+    <translate keyword="api_err_limit_blocked">Action blocked because of request limit reached! Please try again later.</translate>
+    <translate keyword="api_mail_subj">API limit almost exceeded.</translate>
+    <translate keyword="api_mail_body">Hello, %customer%!
+You almost reached one of API limits.
+Limit is: %count% per %time%.
+Currently used: %current%.
+
+%sitename% %sitelink%
+    </translate>
+</translates>

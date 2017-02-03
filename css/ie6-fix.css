@@ -1,0 +1,6 @@
+/* $Id: ie6-fix.css 4 2011-01-20 10:45:27Z tigra $ */
+@CHARSET "UTF-8";
+body {
+    margin: 0;
+    behavior: url("../js/border-radius.htc");
+}

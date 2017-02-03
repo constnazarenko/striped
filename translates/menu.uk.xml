@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="m_mainpage">Головна</translate>
+
+    <!-- root.menu -->
+    <translate keyword="MR_EDITMODE">Редагувати</translate>
+    <translate keyword="MR_CUSTOMERLIST">Список кастомерів</translate>
+    <translate keyword="MR_USERLIST">Список користувачів</translate>
+    <translate keyword="MR_ROLELIST">Список ролей</translate>
+    <translate keyword="MR_SUDO">Перекинутися на когось іншого</translate>
+    <translate keyword="MR_LOGS_ACCESS">Журнал звернень</translate>
+    <translate keyword="MR_LOGS_ACTIONS">Журнал дій</translate>
+    <!-- ^root.menu^ -->
+    
+    <translate keyword="MENU_CANT_FIND_DESCRIPTOR">Неможливо відкрити файл меню-дескриптор.</translate>
+</translates>

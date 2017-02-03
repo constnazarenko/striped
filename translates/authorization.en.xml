@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="au_ttl_reg_c">Register new customer</translate>
+    <translate keyword="au_ttl_reg_u">Register new user</translate>
+    <translate keyword="au_ttl_clist">List of customers</translate>
+    <translate keyword="au_ttl_ulist">List of users</translate>
+    
+    <translate keyword="au_sudo">Switch user</translate>
+
+    <translate keyword="au_api_limits">API limits</translate>
+    <translate keyword="au_ref_link">Referral link</translate>
+
+    <translate keyword="au_lb">Enter</translate>
+    <translate keyword="au_u2r">Assign role to user</translate>
+    <translate keyword="au_roles">Roles</translate>
+    <translate keyword="au_role">Role</translate>
+    <translate keyword="au_lb_cname">Customer</translate>
+    <translate keyword="au_lb_uname">Username</translate>
+    <translate keyword="au_lb_login">Login</translate>
+    <translate keyword="au_lb_email">E-mail</translate>
+    <translate keyword="au_lb_skype">Skype</translate>
+    <translate keyword="au_lb_icq">ICQ, Jabber etc.</translate>
+    <translate keyword="au_lb_pass">Password</translate>
+    <translate keyword="au_login">Log in</translate>
+    <translate keyword="au_lastvst">Last visit</translate>
+    <translate keyword="au_active">Status</translate>
+    <translate keyword="au_active_t">Active</translate>
+    <translate keyword="au_active_f">Unactive</translate>
+    <translate keyword="AUTH_DIV_COMA">(devided by coma)</translate>
+    <translate keyword="au_reg">Register</translate>
+    <translate keyword="AUTH_PROFILE_EDIT_TITLE">Profile edit</translate>
+    <translate keyword="AUTH_REG_CPASSWORD">Password confirm</translate>
+    <translate keyword="AUTH_FRG_TITLE">Password reminder</translate>
+    <translate keyword="AUTH_FRG_USERNAME_EMAIL">Login or e-mail</translate>
+    <translate keyword="AUTH_FRG_PASSWORD">New password</translate>
+    <translate keyword="AUTH_FRG_CPASSWORD">New password (confirm)</translate>
+    <translate keyword="au_logout">log out</translate>
+    <translate keyword="AUTH_LB_LOGOUT_ALL">all</translate>
+    <translate keyword="au_lb_pass_IDENTIFICATION">Confirmation</translate>
+    <translate keyword="au_lb_pass_TO_SAVE">(enter your current password to confirm changes)</translate>
+    <translate keyword="au_err_currpass">Current password</translate>
+    <translate keyword="AUTH_LB_CHANGE_PASSWORD">Password change</translate>
+    <translate keyword="AUTH_LB_CHANGE_PASSWORD_DESCR">(leave empty, if you don't want to change it)</translate>
+    <translate keyword="AUTH_LB_NEW_PASSWORD">New password</translate>
+    <translate keyword="au_ref">Refered by</translate>
+    <translate keyword="au_err_ref_not_exists">There is no such referer</translate>
+
+    <translate keyword="au_logs_access">Access journal</translate>
+    <translate keyword="au_logs_actions">Actions journal</translate>
+    <translate keyword="au_logs_time">Time</translate>
+    <translate keyword="au_logs_accesspoint">Access point</translate>
+    <translate keyword="au_logs_action">Action</translate>
+    <translate keyword="au_logs_link">Link</translate>
+    <translate keyword="au_logs_referer">Referer</translate>
+    <translate keyword="au_logs_params">Params</translate>
+    
+    <translate keyword="auth_must_login">This page is accessible to registered users only.</translate>
+    
+    <translate keyword="au_err_g_wrong_up">Wrong username or password</translate>
+    <translate keyword="au_lb_success">You logged in</translate>
+    <translate keyword="au_err_uname_exists">This username is already registered.</translate>
+    <translate keyword="au_err_cname_exists">This customer name is already registered.</translate>
+    <translate keyword="au_err_uname_wrong">Username must only contains alphabetic characters in lowercase.</translate>
+    <translate keyword="au_reqparams">Required parameter absent</translate>
+    <translate keyword="au_err_currpass">Current password</translate>
+
+    <translate keyword="au_rg_email_subj">Registration on the site</translate>
+    <translate keyword="au_rg_email_text">Greetings!
+You were registered on the site %sitename%.
+Username: %username%
+Password: %password%
+Your promo link: %link%
+Have a nice day, %sitename% (%sitelink%).</translate>
+    <translate keyword="au_rg_email_html">&lt;p&gt;Greetings!&lt;/p&gt;
+&lt;p&gt;You were registered on the site %sitename%.&lt;/p&gt;
+&lt;p&gt;Username: %username%&lt;/p&gt;
+&lt;p&gt;Password: %password%&lt;/p&gt;
+&lt;p&gt;Your promo link: %link% &lt;/p&gt;
+&lt;p&gt;Have a nice day, &lt;a href="%sitelink%"&gt;%sitename%&lt;/a&gt;.&lt;/p&gt;</translate>
+
+    <translate keyword="au_frg_email_subj">Password reminder</translate>
+    <translate keyword="au_frg_email_text">You have requested a password update.
+Update link: %link%
+Have a nice day, %sitename% (%sitelink%).</translate>
+    <translate keyword="au_frg_email_html">&lt;p&gt;You have requested a password update.&lt;/p&gt;
+&lt;p&gt;Update link: &lt;a href="%link%"&gt;click&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Have a nice day, &lt;a href="%sitelink%"&gt;%sitename%&lt;/a&gt;.&lt;/p&gt;</translate>
+
+    <translate keyword="au_frg_email_sent">A link to change your password sent to your email.</translate>
+    <translate keyword="au_frg_err_wrong_link">Wrong password update link.&lt;br/&gt;Please, try using password remindrer &lt;a href="forgotten/"&gt;form once more&lt;/a&gt;.</translate>
+
+    <translate keyword="au_frg_err_not_exists">There are no such Login or e-mail</translate>
+    <translate keyword="au_frg_err_wrong_pass">Wrong password</translate>
+
+    <translate keyword="au_passup_subj">Password updated</translate>
+    <translate keyword="au_passup_text">You have updated your password on the site.
+Username: %username%
+Password: %password%
+Have a nice day, %sitename% (%sitelink%).</translate>
+    <translate keyword="au_passup_html">&lt;p&gt;You have updated your password on the site.&lt;/p&gt;
+&lt;p&gt;Username: %username%&lt;/p&gt;
+&lt;p&gt;Password: %password%&lt;/p&gt;
+&lt;p&gt;Have a nice day, &lt;a href="%sitelink%"&gt;%sitename%&lt;/a&gt;.&lt;/p&gt;</translate>
+
+    <translate keyword="au_notify">There is a new user regged on the site %sitename% (%sitelink%).
+Username: %username%
+E-mail: %email%
+Skype: %skype%
+ICQ: %icq%
+REFERER: %referer%</translate>
+    <translate keyword="au_vrf_link">E-mail is not verified</translate>
+    <translate keyword="au_vrf_success">Your e-mail successfully confirmed.</translate>
+    <translate keyword="au_vrf_wrong_link">Your confirmation link is wrong.</translate>
+    <translate keyword="au_vrf_sent">Confirmation link have been sent to your e-mail.</translate>
+    <translate keyword="au_vrf_autosent">Since you have changed your e-mail, you will need to confirm it.&lt;br/&gt; A confirmation link have been sent to your e-mail.</translate>
+
+    <translate keyword="au_vrf_subj">E-mail confirmation</translate>
+    <translate keyword="au_vrf_text">Attention!
+To confirm your e-mail, please, click on the folowing link: %link%
+Have a nice day, %sitename% (%sitelink%).</translate>
+    <translate keyword="au_vrf_html">&lt;p&gt;Attention!&lt;/p&gt;
+&lt;p&gt;To confirm your e-mail, please, click on the folowing &lt;a href="%link%"&gt;link&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Have a nice day, &lt;a href="%sitelink%"&gt;%sitename%&lt;/a&gt;.&lt;/p&gt;</translate>
+</translates>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" action="" title="" label="" ajax="validate">
+    <fieldgroup label="FEEDBACK_LABEL" name="main">
+        <field name="realname" type="text" required="1">
+            <patterns>
+                <pattern preset="length" message="frm_err_str_range"><item>4</item><item>120</item></pattern>
+            </patterns>
+            <title>FEEDBACK_NAME</title>
+        </field>
+        <field name="email" type="text" required="1">
+            <patterns>
+                <pattern preset="length" message="frm_err_str_range"><item>4</item><item>120</item></pattern>
+                <pattern preset="email" message="frm_err_email" />
+            </patterns>
+            <title>FEEDBACK_EMAIL</title>
+        </field>
+        <field name="phone" type="text" required="0">
+            <patterns>
+                <pattern preset="phone" message="frm_err_phone" />
+            </patterns>
+            <title>FEEDBACK_PHONE</title>
+        </field>
+        <field name="city" type="text">
+            <title>FEEDBACK_CITY</title>
+        </field>
+        <field name="message" type="textarea" height="100" required="1">
+            <title>FEEDBACK_MESSAGE</title>
+        </field>
+        <field type="buttonset">
+            <buttons>
+                <button type="submit" name="submit" title="frm_submit" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

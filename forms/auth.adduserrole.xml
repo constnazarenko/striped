@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" action="" title="" label="au_u2r" ajax="none">
+    <fieldgroup name="main">
+        <field name="uid" type="hidden" />
+        <field name="redirectto" type="hidden" />
+        <field name="username" type="text" disabled="1" />
+        <field name="rid" type="select" required="1">
+            <title>au_role</title>
+        </field>
+        <field type="buttonset">
+            <title />
+            <buttons>
+                <button type="submit" name="submit" title="frm_submit" />
+                <link href="userlist/" title="frm_cancel" class="red" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

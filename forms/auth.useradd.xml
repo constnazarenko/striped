@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" enctype="multipart/form-data" action="user/register" title="" label="" ajax="none">
+    <fieldgroup name="main">
+        <field name="redirectto" type="hidden" />
+        <field name="customer" type="select" required="1">
+            <title>au_lb_cname</title>
+        </field>
+        <field name="role" type="select" required="1" multiple="1">
+            <title>au_role</title>
+        </field>
+        <field name="username" type="text">
+            <title>au_lb_uname</title>
+            <patterns>
+                <pattern preset="length" message="frm_err_str_range"><item>1</item><item>120</item></pattern>
+                <pattern preset="regexp" message="au_err_uname_wrong"><item>/(^[a-z][a-z0-9]*$)/</item></pattern>
+            </patterns>
+        </field>
+        <field name="email" type="text">
+            <title>au_lb_email</title>
+            <patterns>
+                <pattern preset="length" message="frm_err_str_range"><item>5</item><item>120</item></pattern>
+                <pattern preset="email" message="frm_err_email" />
+            </patterns>
+        </field>
+        <field name="icq" type="text">
+            <title>au_lb_icq</title>
+        </field>
+        <field name="skype" type="text">
+            <title>au_lb_skype</title>
+        </field>
+        <field name="password" type="password" required="1">
+            <title>au_lb_pass</title>
+        </field>
+        <field name="cpassword" type="password" required="1" linkedto="password">
+            <title>AUTH_REG_CPASSWORD</title>
+        </field>
+        <field type="buttonset">
+            <title />
+            <buttons>
+                <button type="submit" title="frm_submit" />
+                <link href="userlist/" title="frm_cancel" class="red" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

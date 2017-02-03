@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" action="" title="" label="stkblock" ajax="validate">
+    <fieldgroup name="main">
+        <field name="staticblockname" type="hidden" required="1"/>
+        <field name="content" type="textarea" required="1">
+            <title>glb_content</title>
+        </field>
+        <field type="buttonset">
+            <title />
+            <buttons>
+                <button type="submit" name="submit" title="frm_submit" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

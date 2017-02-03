@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="Access denied!">Access denied!</translate>
+    <translate keyword="glb_sitename">Striped 2 - framework for web sites</translate>
+    <translate keyword="glb_delete_confirm">Confirm delete.\nThere is no way to restore. Delete?</translate>
+    <translate keyword="glb_up">Up</translate>
+    <translate keyword="glb_down">Down</translate>
+    <translate keyword="glb_add">Add</translate>
+    <translate keyword="glb_edit">Edit</translate>
+    <translate keyword="glb_save">Save</translate>
+    <translate keyword="glb_block">Block</translate>
+    <translate keyword="glb_unblock">Unblock</translate>
+    <translate keyword="glb_activate">Activate</translate>
+    <translate keyword="glb_pause">Pause</translate>
+    <translate keyword="glb_unpause">Unpause</translate>
+    <translate keyword="glb_clear_cache">Clear cache</translate>
+    <translate keyword="glb_delete">Delete</translate>
+    <translate keyword="glb_restore">Restore</translate>
+    <translate keyword="glb_restart">Restart</translate>
+    <translate keyword="glb_cancel">Cancel</translate>
+    <translate keyword="glb_clone">Clone</translate>
+    <translate keyword="GLOBAL_READMORE">more →</translate>
+    <translate keyword="GLOBAL_PLEASE_WAIT">Please, wait.</translate>
+    <translate keyword="GLOBAL_ARE_YOU_SURE_WANT">Are you sure want to</translate>
+    <translate keyword="glb_close_unsaved">close frame without saving?</translate>
+    <translate keyword="glb_changes_unsaved">You have unsaved changes.</translate>
+    <translate keyword="glb_reg_link">&lt;a href="en/register"&gt;register&lt;/a&gt;</translate>
+    <translate keyword="glb_fgt_link">&lt;a href="en/forgotten"&gt;forgot password?&lt;/a&gt;</translate>
+    <translate keyword="glb_actions">Actions</translate>
+    <translate keyword="glb_subscribe">subscribe</translate>
+    <translate keyword="glb_unsubscribe">unsubscribe</translate>
+    <translate keyword="glb_user">User</translate>
+    <translate keyword="glb_customer">Customer</translate>
+
+    <translate keyword="glb_content">content</translate>
+    <translate keyword="stkblock">static block editing</translate>
+
+    <translate keyword="glb_now">right now</translate>
+
+    <translate keyword="glb_type">Type</translate>
+    <translate keyword="glb_status">Status</translate>
+
+    <!-- pager -->
+    <translate keyword="glb_pgr_prv">← backward</translate>
+    <translate keyword="glb_pgr_nxt">forward →</translate>
+    <translate keyword="glb_pgr_fst">← first</translate>
+    <translate keyword="glb_pgr_lst">last →</translate>
+    <!-- ^pager^ -->
+
+    <!-- dates -->
+    <translate keyword="MONTH" ident="1">january</translate>
+    <translate keyword="MONTH" ident="2">february</translate>
+    <translate keyword="MONTH" ident="3">march</translate>
+    <translate keyword="MONTH" ident="4">april</translate>
+    <translate keyword="MONTH" ident="5">may</translate>
+    <translate keyword="MONTH" ident="6">june</translate>
+    <translate keyword="MONTH" ident="7">july</translate>
+    <translate keyword="MONTH" ident="8">august</translate>
+    <translate keyword="MONTH" ident="9">september</translate>
+    <translate keyword="MONTH" ident="10">october</translate>
+    <translate keyword="MONTH" ident="11">november</translate>
+    <translate keyword="MONTH" ident="12">december</translate>
+    <!-- ^dates^ -->
+
+    <translate keyword="glb_sitename">Striped 2 - framework for web sites</translate>
+    <translate keyword="glb_deleted">Item has been deleted</translate>
+    <translate keyword="glb_saved">Changes have been saved</translate>
+    <translate keyword="glb_403">Access denied</translate>
+    <translate keyword="glb_404">Page not found</translate>
+    <translate keyword="glb_none">[nothing choosen]</translate>
+    <translate keyword="glb_all">All</translate>
+    <translate keyword="glb_empty">List is empty</translate>
+    <translate keyword="glb_nothing_chosen">Nothing choosen</translate>
+
+    <translate keyword="glb_scs_close">
+        Operation successfull!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$('.overclose').trigger('click');
+        &lt;/script&gt;
+    </translate>
+    <translate keyword="glb_scs_reload">
+        Operation successfull!
+        &lt;script type="text/javascript"&gt;
+            window.parent.location.reload();
+        &lt;/script&gt;
+    </translate>
+    <translate keyword="glb_scs_reload_on_close">
+        Operation successfull!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$.fn.setReloadAfter(true);
+        &lt;/script&gt;
+    </translate>
+
+    <translate keyword="glb_scs_comment">
+        Comment has been edited!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$.fn.reloadComment(%u, %s);
+        &lt;/script&gt;
+    </translate>
+
+    <!-- forms -->
+    <translate keyword="frm_submit">Submit</translate>
+    <translate keyword="frm_cancel">Cancel</translate>
+    <translate keyword="frm_captcha">Word Verification</translate>
+    <translate keyword="frm_captcha_dscr">Type the characters you see in the picture</translate>
+    <translate keyword="frm_err_required_AJAX">Field must be filled</translate>
+    <translate keyword="frm_err_str_min_AJAX">Value of field must have more than {0} symbols</translate>
+    <translate keyword="frm_err_str_max_AJAX">Value of field must have less than {0} symbols</translate>
+    <translate keyword="frm_multifiles">add attachment</translate>
+    <translate keyword="frm_multifields">add</translate>
+    <translate keyword="frm_link">file</translate>
+    <translate keyword="frm_err_datetime">Value of field "%title" must be a valid date-time - yyyy-mm-dd hh:mm:ss</translate>
+    <translate keyword="frm_err_captcha">The characters that you entered didn't match the word verification. Please try again</translate>
+    <translate keyword="frm_err_email">Value of field "%title" must be an e-mail address</translate>
+    <translate keyword="frm_err_email_AJAX">Value of this field must be an e-mail address</translate>
+    <translate keyword="frm_err_required">Field "%s" must be filled</translate>
+    <translate keyword="frm_err_linked">Value of field "%s" must be equel to "%s" field's value</translate>
+    <translate keyword="frm_err_phone">Value of field "%title" must be a phone number</translate>
+    <translate keyword="frm_err_str_range">Value of field "%title" must have not less than %0 and not more than %1 symbols</translate>
+    <translate keyword="frm_err_str_min">Value of field "%title" must have more than %0 symbols</translate>
+    <translate keyword="frm_err_str_max">Value of field "%title" must have less than %0 symbols</translate>
+    <translate keyword="frm_err_int_range">Value of field "%title" must be not less than %0 and not more than %1</translate>
+    <translate keyword="frm_err_int_min">Value of field "%title" must be greater than %0</translate>
+    <translate keyword="frm_err_int_max">Value of field "%title" must be lesser than %0</translate>
+    <translate keyword="frm_err_integer">Value of field "%title" must be an integer</translate>
+    <translate keyword="frm_errs_warn">Warning! Some forms below has errors!</translate>
+    <translate keyword="upl_wrong_type">Wrong file type (%s)</translate>
+    <translate keyword="upl_no_img_cls">Image class wasn't initialized yet.</translate>
+    <translate keyword="upl_err_1">The uploaded file exceeds the upload_max_filesize directive in php.ini</translate>
+    <translate keyword="upl_err_2">The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form.</translate>
+    <translate keyword="upl_err_3">The uploaded file was only partially uploaded.</translate>
+    <translate keyword="upl_err_4">No file was uploaded.</translate>
+    <translate keyword="upl_err_6">Missing a temporary folder.</translate>
+    <translate keyword="upl_err_7">Failed to write file to disk.</translate>
+    <translate keyword="upl_err_8">File upload stopped by extension.</translate>
+    <translate keyword="upl_done_photo">Photo has been uploaded (%s)</translate>
+    <translate keyword="upl_done">File has been uploaded (%s)</translate>
+    <translate keyword="upl_finished">&lt;b&gt;Uploading has finished&lt;/b&gt;</translate>
+    <!-- ^forms^ -->
+
+    <!-- comments -->
+    <translate keyword="COMMENTS_TEXT">Text</translate>
+    <translate keyword="COMMENTS_ADDED">Comment added</translate>
+    <translate keyword="COMMENTS_DELETED">inscription vanished somehow</translate>
+
+    <translate keyword="cmmts_ncomment_email_subject">New comment for: %subject% (%id%)</translate>
+    <translate keyword="cmmts_ncomment_email_body_html">&lt;p&gt;&lt;small&gt;New comment:&lt;/small&gt;&lt;/p&gt;
+&lt;blockquote style="border-left: 3px solid #bDD9f6; padding: 10px;"&gt;%newcommenthtml%&lt;/blockquote&gt;
+&lt;blockquote style="border-left: 3px solid #bDD9f6; padding: 5px 10px;"&gt;&lt;small&gt;&lt;a href="%userlink%"&gt;%username%&lt;/a&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="%newcommentlink%"&gt;Answer this comment&lt;/a&gt;&lt;br/&gt;
+&lt;a href="%treelink%"&gt;Write new comment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;This is answer for:&lt;/small&gt;&lt;/p&gt;
+&lt;blockquote style="border-left: 3px solid #bDD9f6; padding: 10px;"&gt;%parentcommenthtml%&lt;/blockquote&gt;
+&lt;blockquote style="border-left: 3px solid #bDD9f6; padding: 5px 10px;"&gt;&lt;small&gt;&lt;a href="%parentuserlink%"&gt;%parentusername%&lt;/a&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;small&gt;This email was sent to %sentto%, because you was subscribed to this thread on %sitename%. &lt;a href="%unsubscribe%"&gt;Unsubscribe&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+    </translate>
+    <translate keyword="cmmts_ncomment_email_body_text">New comment
+
+%newcommenttext%
+
+%username%
+
+Answer this comment - %newcommentlink%
+Write new comment - %treelink%
+
+This is answer for:
+%parentcommenttext%
+
+%parentusername%
+
+This email was sent to %sentto%, because you was subscribed to this thread on %sitename%. Unsubscribe - %unsubscribe%.
+    </translate>
+
+    <translate keyword="COMMENTS_TITLE">Comments</translate>
+    <translate keyword="COMMENTS_COUNT_NOMINATIVE">comment</translate>
+    <translate keyword="COMMENTS_COUNT_SINGULAR">comments</translate>
+    <translate keyword="COMMENTS_COUNT_PLURAL">comments</translate>
+    <translate keyword="COMMENTS_TEXT">Text</translate>
+    <translate keyword="COMMENTS_DELETE">delete</translate>
+    <translate keyword="COMMENTS_RESTORE">restore</translate>
+    <translate keyword="COMMENTS_DELETED">inscription vanished somehow</translate>
+    <translate keyword="COMMENTS_ABSENT">There are no comments yet.</translate>
+    <translate keyword="COMMENTS_SCROLL_DOWN">back down</translate>
+    <translate keyword="COMMENTS_LINK_TO_THIS">link to this comment</translate>
+    <translate keyword="COMMENTS_SHOW">show</translate>
+    <translate keyword="COMMENTS_HIDE">hide</translate>
+    <translate keyword="COMMENTS_SCROLL_UP">this is reply to</translate>
+    <translate keyword="COMMENTS_SEND">Submit</translate>
+    <translate keyword="COMMENTS_SHOW_FORM">write a comment</translate>
+    <translate keyword="COMMENTS_SHOW_ADDITIONAL_FORM">write an important comment</translate>
+    <translate keyword="COMMENTS_ANSWER">reply</translate>
+    <translate keyword="cmmts_must_be_logged">You must be logged in if you want to write comments.</translate>
+    <!-- ^comments^ -->
+
+</translates>

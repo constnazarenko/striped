@@ -1,0 +1,75 @@
+/* $Id: error.css 4 2011-01-20 10:45:27Z tigra $ */
+@CHARSET "UTF-8";
+/* global styles for all projects */
+html, body, form, td, th {margin: 0; padding: 0;}
+html {height: 100%;}
+body {
+    background: #404040;
+    color: #ffff80;
+    font: 16px monospace, Tahoma, Arial;
+    padding: 0 10px 0 10px;
+}
+table {border-collapse: collapse;}
+img {border:0;}
+
+a {text-decoration:underline; color: #ffff80;}
+a:hover {text-decoration:none;}
+
+.aright {text-align:right;}
+.aleft {text-align:left;}
+.acenter {text-align:center;}
+
+.vtop {vertical-align:top;}
+.vbottom {vertical-align:bottom;}
+.vmiddle {vertical-align:middle;}
+
+.fright {float:right;}
+.fleft {float:left;}
+.clb {clear: both;}
+
+.aw {width:100%;}
+.ah {height:100%;}
+
+.bold {font-weight: bold;}
+
+h1 {
+    color: #cc0033;
+}
+
+dl {
+    margin-left: 0;
+    margin-top: 15px;
+}
+dl dt {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    width: 180px;
+    text-align: right;
+    color: #84c2ff;
+}
+dl dd {
+    color: #ffffff;
+    margin: 0 0 20px 200px;
+}
+dl dd ul {
+    margin: 0; padding: 0;
+}
+dl dd ul li {
+    margin: 0; padding: 0;
+}
+fieldset {
+    border: 1px solid #acffae;
+}
+fieldset legend {
+    border: 1px solid #acffae;
+    color: #acffae;
+    margin-top: -1px; padding: 3px;
+}
+
+fieldset textarea {
+    width: 98%; height: 150px;
+    border: 0;
+    background: #404040;
+    color: #ffff80;
+}

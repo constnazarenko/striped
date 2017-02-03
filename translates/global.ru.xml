@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="Access denied!">В доступе отказано!</translate>
+    <translate keyword="glb_sitename">Striped 2 - инструмент для создания сайтов</translate>
+    <translate keyword="glb_delete_confirm">Подтверждение удаления.\nВосстановить будет невозмножно. Удалить?</translate>
+    <translate keyword="glb_up">Вверх</translate>
+    <translate keyword="glb_down">Вниз</translate>
+    <translate keyword="glb_add">Добавить</translate>
+    <translate keyword="glb_edit">Редактировать</translate>
+    <translate keyword="glb_save">Сохранить</translate>
+    <translate keyword="glb_block">Заблокировать</translate>
+    <translate keyword="glb_unblock">Разблокировать</translate>
+    <translate keyword="glb_activate">Активировать</translate>
+    <translate keyword="glb_pause">Приостановить</translate>
+    <translate keyword="glb_unpause">Запустить</translate>
+    <translate keyword="glb_clear_cache">Очистить кэш</translate>
+    <translate keyword="glb_delete">Удалить</translate>
+    <translate keyword="glb_restore">Восстановить</translate>
+    <translate keyword="glb_restart">Перезапустить</translate>
+    <translate keyword="glb_cancel">Отменить</translate>
+    <translate keyword="glb_clone">Клонировать</translate>
+    <translate keyword="GLOBAL_READMORE">продолжение →</translate>
+    <translate keyword="GLOBAL_PLEASE_WAIT">Подождите, пожалуйста.</translate>
+    <translate keyword="GLOBAL_ARE_YOU_SURE_WANT">Вы уверены, что хотите</translate>
+    <translate keyword="glb_close_unsaved">закрыть фрейм без сохраниения?</translate>
+    <translate keyword="glb_changes_unsaved">Изменения не сохранены.</translate>
+    <translate keyword="glb_reg_link">&lt;a href="ru/register"&gt;регистрация&lt;/a&gt;</translate>
+    <translate keyword="glb_fgt_link">&lt;a href="ru/forgotten"&gt;забыли пароль?&lt;/a&gt;</translate>
+    <translate keyword="glb_actions">Действия</translate>
+    <translate keyword="glb_subscribe">подписаться</translate>
+    <translate keyword="glb_unsubscribe">отписаться</translate>
+    <translate keyword="glb_user">Пользователь</translate>
+    <translate keyword="glb_customer">Клиент</translate>
+
+    <translate keyword="glb_content">контент</translate>
+    <translate keyword="stkblock">редактирование статического блока</translate>
+
+    <translate keyword="glb_now">только что</translate>
+
+    <translate keyword="glb_type">Тип</translate>
+    <translate keyword="glb_status">Статус</translate>
+
+    <!-- pager -->
+    <translate keyword="glb_pgr_prv">← назад</translate>
+    <translate keyword="glb_pgr_nxt">вперёд →</translate>
+    <translate keyword="glb_pgr_fst">← первая</translate>
+    <translate keyword="glb_pgr_lst">последняя →</translate>
+    <!-- ^pager^ -->
+
+    <!-- dates -->
+    <translate keyword="MONTH" ident="1">января</translate>
+    <translate keyword="MONTH" ident="2">февраля</translate>
+    <translate keyword="MONTH" ident="3">марта</translate>
+    <translate keyword="MONTH" ident="4">апреля</translate>
+    <translate keyword="MONTH" ident="5">мая</translate>
+    <translate keyword="MONTH" ident="6">июня</translate>
+    <translate keyword="MONTH" ident="7">июля</translate>
+    <translate keyword="MONTH" ident="8">августа</translate>
+    <translate keyword="MONTH" ident="9">сентября</translate>
+    <translate keyword="MONTH" ident="10">октября</translate>
+    <translate keyword="MONTH" ident="11">ноября</translate>
+    <translate keyword="MONTH" ident="12">декабря</translate>
+    <!-- ^dates^ -->
+
+    <translate keyword="glb_sitename">Striped 2 - инструмент для создания сайтов</translate>
+    <translate keyword="glb_deleted">Удалено</translate>
+    <translate keyword="glb_saved">Изменения сохранены</translate>
+    <translate keyword="glb_403">В доступе отказано</translate>
+    <translate keyword="glb_404">Страница потерялась :(</translate>
+    <translate keyword="glb_none">[ничего не выбрано]</translate>
+    <translate keyword="glb_all">Все</translate>
+    <translate keyword="glb_empty">Список пуст</translate>
+    <translate keyword="glb_nothing_chosen">Ничего не выбрано</translate>
+
+    <translate keyword="glb_scs_close">
+        Операция выполнена!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$('.overclose').trigger('click');
+        &lt;/script&gt;
+    </translate>
+    <translate keyword="glb_scs_reload">
+        Операция выполнена!
+        &lt;script type="text/javascript"&gt;
+            window.parent.location.reload();
+        &lt;/script&gt;
+    </translate>
+    <translate keyword="glb_scs_reload_on_close">
+        Операция выполнена!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$.fn.setReloadAfter(true);
+        &lt;/script&gt;
+    </translate>
+
+    <translate keyword="glb_scs_comment">
+        Комментарий отредактирован!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$.fn.reloadComment(%u, %s);
+        &lt;/script&gt;
+    </translate>
+
+    <!-- forms -->
+    <translate keyword="frm_submit">Отправить</translate>
+    <translate keyword="frm_cancel">Отменить</translate>
+    <translate keyword="frm_captcha">Проверочное слово</translate>
+    <translate keyword="frm_captcha_dscr">Введите символы, изображенные на рисунке</translate>
+    <translate keyword="frm_err_required_AJAX">Поле обязательно к заполнению</translate>
+    <translate keyword="frm_err_str_min_AJAX">Длина значения поля должна быть {0} символов или более</translate>
+    <translate keyword="frm_err_str_max_AJAX">Длина значения поля должна быть {0} символов или менее</translate>
+    <translate keyword="frm_multifiles">добавить вложение</translate>
+    <translate keyword="frm_multifields">добавить</translate>
+    <translate keyword="frm_link">файл</translate>
+    <translate keyword="frm_err_datetime">Значение поля "%title" должно быть в формате дата-время - yyyy-mm-dd hh:mm:ss</translate>
+    <translate keyword="frm_err_captcha">Введенные вами символы не соответствуют проверочному слову. Повторите попытку</translate>
+    <translate keyword="frm_err_email">Значение этого поля "%title" должно быть e-mail адресом</translate>
+    <translate keyword="frm_err_email_AJAX">Значение этого поля должно быть e-mail адресом</translate>
+    <translate keyword="frm_err_required">Поле "%s" обязательно к заполнению</translate>
+    <translate keyword="frm_err_linked">Значение поля "%s" должно быть идентичным значению поля "%s"</translate>
+    <translate keyword="frm_err_phone">Значение поля "%title" должно быть телефонным номером</translate>
+    <translate keyword="frm_err_str_range">Длина значения поля "%title" должна быть %0 символов либо больше, но менее %1 символов</translate>
+    <translate keyword="frm_err_str_min">Длина значения поля "%title" должна быть %0 символов либо больше</translate>
+    <translate keyword="frm_err_str_max">Длина значения поля "%title" должна быть менее %0 символов</translate>
+    <translate keyword="frm_err_int_range">Значение поля "%title" должно быть %0 либо больше, но менее %1</translate>
+    <translate keyword="frm_err_int_min">Значение поля "%title" должно быть %0 либо больше</translate>
+    <translate keyword="frm_err_int_max">Значение поля "%title" должно быть менее %0</translate>
+    <translate keyword="frm_err_integer">Значение поля "%title" должно быть целым числом</translate>
+    <translate keyword="frm_errs_warn">Внимание! Некоторые формы ниже заполнены с ошибками!</translate>
+    <translate keyword="upl_wrong_type">Неверный тип загружаемого файла (%s)</translate>
+    <translate keyword="upl_no_img_cls">Класс Image не инициализирован</translate>
+    <translate keyword="upl_err_1">The uploaded file exceeds the upload_max_filesize directive in php.ini</translate>
+    <translate keyword="upl_err_2">The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form.</translate>
+    <translate keyword="upl_err_3">The uploaded file was only partially uploaded.</translate>
+    <translate keyword="upl_err_4">No file was uploaded.</translate>
+    <translate keyword="upl_err_6">Missing a temporary folder.</translate>
+    <translate keyword="upl_err_7">Failed to write file to disk.</translate>
+    <translate keyword="upl_err_8">File upload stopped by extension.</translate>
+    <translate keyword="upl_done_photo">Фото загружено (%s)</translate>
+    <translate keyword="upl_done">Файл загружен (%s)</translate>
+    <translate keyword="upl_finished">&lt;b&gt;Загрузка завершена&lt;/b&gt;</translate>
+    <!-- ^forms^ -->
+
+    <!-- comments -->
+    <translate keyword="COMMENTS_TEXT">Текст комментария</translate>
+    <translate keyword="COMMENTS_ADDED">Комментарий добавлен</translate>
+    <translate keyword="COMMENTS_DELETED">надпись странным образом исчезала</translate>
+
+    <translate keyword="cmmts_ncomment_email_subject">Новый комментарий к: %subject% (%id%)</translate>
+    <translate keyword="cmmts_ncomment_email_body_html">&lt;p&gt;&lt;small&gt;Новый комментарий:&lt;/small&gt;&lt;/p&gt;
+&lt;blockquote style="border-left: 3px solid #bDD9f6; padding: 10px;"&gt;%newcommenthtml%&lt;/blockquote&gt;
+&lt;blockquote style="border-left: 3px solid #bDD9f6; padding: 5px 10px;"&gt;&lt;small&gt;&lt;a href="%userlink%"&gt;%username%&lt;/a&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="%newcommentlink%"&gt;Ответить на этот комментарий&lt;/a&gt;&lt;br/&gt;
+&lt;a href="%treelink%"&gt;Написать новый комментарий&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Это ответ на:&lt;/small&gt;&lt;/p&gt;
+&lt;blockquote style="border-left: 3px solid #bDD9f6; padding: 10px;"&gt;%parentcommenthtml%&lt;/blockquote&gt;
+&lt;blockquote style="border-left: 3px solid #bDD9f6; padding: 5px 10px;"&gt;&lt;small&gt;&lt;a href="%parentuserlink%"&gt;%parentusername%&lt;/a&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;small&gt;Это письмо было отправлено на %sentto%, потому что этот e-mail был подписан на ветку комментариев на %sitename%. &lt;a href="%unsubscribe%"&gt;Отписаться&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+    </translate>
+    <translate keyword="cmmts_ncomment_email_body_text">Новый комментарий
+
+%newcommenttext%
+
+%username%
+
+Ответить на этот комментарий - %newcommentlink%
+Написать новый комментарий - %treelink%
+
+Это ответ на:
+%parentcommenttext%
+
+%parentusername%
+
+Это письмо было отправлено на %sentto%, потому что этот e-mail был подписан на ветку комментариев на %sitename%. Отписаться - %unsubscribe%.
+    </translate>
+
+    <translate keyword="COMMENTS_TITLE">Комментарии</translate>
+    <translate keyword="COMMENTS_COUNT_NOMINATIVE">комментарий</translate>
+    <translate keyword="COMMENTS_COUNT_SINGULAR">комментария</translate>
+    <translate keyword="COMMENTS_COUNT_PLURAL">комментариев</translate>
+    <translate keyword="COMMENTS_TEXT">Текст комментария</translate>
+    <translate keyword="COMMENTS_DELETE">удалить</translate>
+    <translate keyword="COMMENTS_RESTORE">восстановить</translate>
+    <translate keyword="COMMENTS_DELETED">надпись странным образом исчезала</translate>
+    <translate keyword="COMMENTS_ABSENT">Комментариев пока нет.</translate>
+    <translate keyword="COMMENTS_SCROLL_DOWN">обратно</translate>
+    <translate keyword="COMMENTS_LINK_TO_THIS">ссылка на этот комментарий</translate>
+    <translate keyword="COMMENTS_SHOW">показать</translate>
+    <translate keyword="COMMENTS_HIDE">спрятать</translate>
+    <translate keyword="COMMENTS_SCROLL_UP">ответ на</translate>
+    <translate keyword="COMMENTS_SEND">Отправить</translate>
+    <translate keyword="COMMENTS_SHOW_FORM">написать комментарий</translate>
+    <translate keyword="COMMENTS_SHOW_ADDITIONAL_FORM">написать важный комментарий</translate>
+    <translate keyword="COMMENTS_ANSWER">ответить</translate>
+    <translate keyword="cmmts_must_be_logged">Чтобы иметь возможность комментировать, нужно войти в систему.</translate>
+    <!-- ^comments^ -->
+</translates>

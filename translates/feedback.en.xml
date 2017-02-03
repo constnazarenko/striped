@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="FEEDBACK_LABEL">Feedback form</translate>
+    <translate keyword="FEEDBACK_NAME">Name</translate>
+    <translate keyword="FEEDBACK_EMAIL">E-mail</translate>
+    <translate keyword="FEEDBACK_PHONE">Phone</translate>
+    <translate keyword="FEEDBACK_CITY">City</translate>
+    <translate keyword="FEEDBACK_MESSAGE">Message</translate>
+    
+    <translate keyword="FEEDBACK_EMAIL_SUBJECT">Feedback letter</translate>
+    <translate keyword="FEEDBACK_EMAIL_BODY_TEXT">Someone sent you the feedback.
+%body%
+
+Browser: %browser%
+Host: %hostname% (%ip%)</translate>
+    <translate keyword="FEEDBACK_EMAIL_BODY_HTML">&lt;p&gt;Someone sent you the feedback.&lt;/p&gt;
+&lt;p&gt;%body%&lt;/p&gt;
+&lt;p&gt;Browser: %browser%&lt;/br&gt;
+Host: %hostname% (%ip%)&lt;/p&gt;</translate>
+    <translate keyword="FEEDBACK_SUCCESSFULY_SENT">Your feedback has been sent.</translate>
+</translates>

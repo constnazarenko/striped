@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" action="login" title="" label="au_lb" >
+    <fieldgroup name="main">
+    	<field name="remember" type="hidden" />
+    	<field name="gohome" type="hidden" />
+        <field name="username" type="text" required="1">
+            <patterns>
+                <pattern preset="minlength" message="frm_err_str_min"><item>1</item></pattern>
+                <pattern preset="maxlength" message="frm_err_str_max"><item>20</item></pattern>
+            </patterns>
+            <title>au_lb_login</title>
+        </field>
+        <field name="password" type="password" required="1">
+            <title>au_lb_pass</title>
+        </field>
+        <field type="buttonset">
+            <buttons>
+                <button type="submit" name="submit" title="au_login" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

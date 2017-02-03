@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="au_ttl_reg_c">Регистрация нового клиента</translate>
+    <translate keyword="au_ttl_reg_u">Регистрация нового пользователя</translate>
+    <translate keyword="au_ttl_clist">Список клиентов</translate>
+    <translate keyword="au_ttl_ulist">Список пользователей</translate>
+    
+    <translate keyword="au_sudo">Сменить пользователя</translate>
+
+    <translate keyword="au_api_limits">API ограничения</translate>
+    <translate keyword="au_ref_link">Реферальная ссылка</translate>
+
+    <translate keyword="au_lb">Вход</translate>
+    <translate keyword="au_u2r">Назначить пользователю роль</translate>
+    <translate keyword="au_roles">Роли</translate>
+    <translate keyword="au_role">Роль</translate>
+    <translate keyword="au_lb_cname">Клиент</translate>
+    <translate keyword="au_lb_uname">Пользователь</translate>
+    <translate keyword="au_lb_login">Логин</translate>
+    <translate keyword="au_lb_email">E-mail</translate>
+    <translate keyword="au_lb_skype">Skype</translate>
+    <translate keyword="au_lb_icq">ICQ, Jabber etc.</translate>
+    <translate keyword="au_lb_pass">Пароль</translate>
+    <translate keyword="au_login">Войти</translate>
+    <translate keyword="au_lastvst">Поледнее посещение</translate>
+    <translate keyword="au_active">Статус</translate>
+    <translate keyword="au_active_t">Активен</translate>
+    <translate keyword="au_active_f">Не активен</translate>
+    <translate keyword="au_reg">Регистрация</translate>
+    <translate keyword="AUTH_PROFILE_EDIT_TITLE">Редиктирование профиля</translate>
+    <translate keyword="AUTH_REG_CPASSWORD">Подтверждение пароля</translate>
+    <translate keyword="AUTH_FRG_TITLE">Напомнить пароль</translate>
+    <translate keyword="AUTH_FRG_USERNAME_EMAIL">Логин или e-mail</translate>
+    <translate keyword="AUTH_FRG_PASSWORD">Новый пароль</translate>
+    <translate keyword="AUTH_FRG_CPASSWORD">Подтверждение пароля</translate>
+    <translate keyword="au_logout">выйти</translate>
+    <translate keyword="AUTH_LB_LOGOUT_ALL">везде</translate>
+    <translate keyword="au_lb_pass_IDENTIFICATION">Подтверждение</translate>
+    <translate keyword="au_lb_pass_TO_SAVE">(введите текущий пароль для подтверждения изменений)</translate>
+    <translate keyword="au_err_currpass">Текущий пароль</translate>
+    <translate keyword="AUTH_LB_CHANGE_PASSWORD">Смена пароля</translate>
+    <translate keyword="AUTH_LB_CHANGE_PASSWORD_DESCR">(оставьте это поле незаполненным, если не хотите менять пароль)</translate>
+    <translate keyword="AUTH_LB_NEW_PASSWORD">Новый пароль</translate>
+    <translate keyword="au_ref">Промокод</translate>
+    <translate keyword="au_err_ref_not_exists">Такого промокода не существует</translate>
+
+    <translate keyword="au_logs_access">Журнал обращений</translate>
+    <translate keyword="au_logs_actions">Журнал действий</translate>
+    <translate keyword="au_logs_time">Время</translate>
+    <translate keyword="au_logs_accesspoint">Точка доступа</translate>
+    <translate keyword="au_logs_action">Действие</translate>
+    <translate keyword="au_logs_link">Ссылка</translate>
+    <translate keyword="au_logs_referer">Referer</translate>
+    <translate keyword="au_logs_params">Params</translate>
+    
+    <translate keyword="auth_must_login">Эта страница доступна только для зарегистрированных пользователей.</translate>
+
+    <translate keyword="au_err_g_wrong_up">Неправильное имя пользователя или пароль</translate>
+    <translate keyword="au_lb_success">Вы вошли</translate>
+    <translate keyword="au_err_uname_exists">Указанное имя пользователя уже зарегистрировано.</translate>
+    <translate keyword="au_err_cname_exists">Указанное имя клиента уже зарегистрировано.</translate>
+    <translate keyword="au_err_uname_wrong">Имя пользователя должно состоять из букв латинского алфавита в нижнем регистре.</translate>
+    <translate keyword="au_reqparams">Отсутствуют необходимые данные</translate>
+    <translate keyword="au_err_currpass">Текущий пароль</translate>
+
+    <translate keyword="au_rg_email_subj">Регистрация на сайте</translate>
+    <translate keyword="au_rg_email_text">Здравствуйте!
+Вы зарегистрированы на сайте %sitename%.
+
+Ваш логин: %username%
+Ваш пароль: %password%
+Ваша промо ссылка: %link%
+Удачи, %sitename% (%sitelink%)!</translate>
+    <translate keyword="au_rg_email_html">&lt;p&gt;Здравствуйте!&lt;/p&gt;
+&lt;p&gt;Вы зарегистрированы на сайте %sitename%.&lt;/p&gt;
+&lt;p&gt;Ваш логин: %username% &lt;/p&gt;
+&lt;p&gt;Ваш пароль: %password% &lt;/p&gt;
+&lt;p&gt;Ваша промо ссылка: %link% &lt;/p&gt;
+&lt;p&gt;Удачи, &lt;a href="%sitelink%"&gt;%sitename%&lt;/a&gt;!&lt;/p&gt;</translate>
+
+    <translate keyword="au_frg_email_subj">Напоминание пароля</translate>
+    <translate keyword="au_frg_email_text">Вы запросили смену пароля.
+Ссылка для смены пароля: %link%
+Удачи, %sitename% (%sitelink%)!</translate>
+    <translate keyword="au_frg_email_html">&lt;p&gt;Вы запросили смену пароля.&lt;/p&gt;
+&lt;p&gt;Ссылка для смены пароля: &lt;a href="%link%"&gt;нажмите&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Удачи, &lt;a href="%sitelink%"&gt;%sitename%&lt;/a&gt;!&lt;/p&gt;</translate>
+
+    <translate keyword="au_frg_email_sent">Ссылка на смену пароля отправлена вам на элекронный ящик.</translate>
+    <translate keyword="au_frg_err_wrong_link">Неправильная ссылка на смену пароля.&lt;br/&gt;Попробуйте еще раз воспользоваться &lt;a href="forgotten/"&gt;формой напоминания пароля&lt;/a&gt;.</translate>
+
+    <translate keyword="au_frg_err_not_exists">Нет такого пользователя или e-mail-а</translate>
+    <translate keyword="au_frg_err_wrong_pass">Неправильный пароль</translate>
+
+    <translate keyword="au_passup_subj">Пароль обновлен</translate>
+    <translate keyword="au_passup_text">Вы обновили пароль на сайте.
+Ваш логин: %username%
+Ваш пароль: %password%
+Удачи, %sitename% (%sitelink%)!</translate>
+    <translate keyword="au_passup_html">&lt;p&gt;Вы обновили пароль на сайте.&lt;/p&gt;
+&lt;p&gt;Ваш логин: %username% &lt;/p&gt;
+&lt;p&gt;Ваш пароль: %password% &lt;/p&gt;
+&lt;p&gt;Удачи, &lt;a href="%sitelink%"&gt;%sitename%&lt;/a&gt;!&lt;/p&gt;</translate>
+
+    <translate keyword="au_notify">На сайте %sitename% (%sitelink%) зарегистрировался новый пользователь.
+Логин: %username%
+E-mail: %email%
+Skype: %skype%
+ICQ: %icq%
+REFERER: %referer%</translate>
+    <translate keyword="au_vrf_link">E-mail не подтвержден</translate>
+    <translate keyword="AUTH_VRF_LINK">Выслать ссылку для подтверждения e-mail</translate>
+    <translate keyword="au_vrf_success">Ваш e-mail подтвержден.</translate>
+    <translate keyword="au_vrf_wrong_link">Не верная ссылка для подтверждения e-mail.</translate>
+    <translate keyword="au_vrf_sent">Ссылка для подтверждения выслана Вам на e-mail.</translate>
+    <translate keyword="au_vrf_autosent">Так как Вы изменили ваш e-mail, вам нужно его подтвердить.&lt;br/&gt; Ссылка для подтверждения выслана Вам на e-mail.</translate>
+
+    <translate keyword="au_vrf_subj">Подтверждение e-mail</translate>
+    <translate keyword="au_vrf_text">Внимание!
+Для подтверждения вашего e-mail нажмите на следующую ссылку: %link%
+Удачи, %sitename% (%sitelink%)!</translate>
+    <translate keyword="au_vrf_html">&lt;p&gt;Внимание!&lt;/p&gt;
+&lt;p&gt;Для подтверждения вашего e-mail нажмите на следующую &lt;a href="%link%"&gt;ссылку&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Удачи, &lt;a href="%sitelink%"&gt;%sitename%&lt;/a&gt;!&lt;/p&gt;</translate>
+</translates>

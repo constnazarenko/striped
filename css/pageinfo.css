@@ -1,0 +1,33 @@
+/* $Id: pageinfo.css 4 2011-01-20 10:45:27Z tigra $ */
+table.pageinfo {
+    width: 100%;
+    font: normal 10px monospace;
+    color: #333;
+}
+table.pageinfo th {
+    background: #e8eef7;
+    border: 1px solid #69f;
+    padding: 3px;
+}
+table.pageinfo tr td {
+    background: #fff;
+    border: 1px solid #69f;
+    padding: 5px;
+    color: #036;
+}
+table.pageinfo tr:hover td {
+    background: #ffa;
+    color: #036;
+}
+table.pageinfo .first {
+    
+}
+table.pageinfo .second {
+    width: 150px;
+}
+table.pageinfo .third {
+    width: 80px;
+}
+table.pageinfo .fourth {
+    width: 80px;
+}

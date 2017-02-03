@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translates>
+    <translate keyword="Access denied!">У доступі відмовлено!</translate>
+    <translate keyword="glb_sitename">Striped 2 - інструмент для створення сайтів</translate>
+    <translate keyword="glb_delete_confirm">Підтвердження видалення.\nВідновити буде неможливо. Справді видалити?</translate>
+    <translate keyword="glb_up">Вгору</translate>
+    <translate keyword="glb_down">Вниз</translate>
+    <translate keyword="glb_add">Створити</translate>
+    <translate keyword="glb_edit">Редагувати</translate>
+    <translate keyword="glb_save">Зберегти</translate>
+    <translate keyword="glb_block">Заблокувати</translate>
+    <translate keyword="glb_unblock">Розблокувати</translate>
+    <translate keyword="glb_activate">Активувати</translate>
+    <translate keyword="glb_pause">Призупинити</translate>
+    <translate keyword="glb_unpause">Запустити</translate>
+    <translate keyword="glb_clear_cache">Очистити кеш</translate>
+    <translate keyword="glb_delete">Знищити</translate>
+    <translate keyword="glb_restore">Відновити</translate>
+    <translate keyword="glb_restart">Перезапустити</translate>
+    <translate keyword="glb_cancel">Скасувати</translate>
+    <translate keyword="glb_clone">Клонувати</translate>
+    <translate keyword="GLOBAL_READMORE">продовження →</translate>
+    <translate keyword="GLOBAL_PLEASE_WAIT">Будь-ласка, зачекайте.</translate>
+    <translate keyword="GLOBAL_ARE_YOU_SURE_WANT">Ви дійсно бажаете</translate>
+    <translate keyword="glb_close_unsaved">закрити фрейм без збереження?</translate>
+    <translate keyword="glb_changes_unsaved">Зімни не збережені.</translate>
+    <translate keyword="glb_reg_link">&lt;a href="uk/register"&gt;реєстрація&lt;/a&gt;</translate>
+    <translate keyword="glb_fgt_link">&lt;a href="uk/forgotten"&gt;забули пароль?&lt;/a&gt;</translate>
+    <translate keyword="glb_actions">Дії</translate>
+    <translate keyword="glb_subscribe">підписатися</translate>
+    <translate keyword="glb_unsubscribe">відписатися</translate>
+    <translate keyword="glb_user">Користувач</translate>
+    <translate keyword="glb_customer">Клієнт</translate>
+
+    <translate keyword="glb_content">контент</translate>
+    <translate keyword="stkblock">редагування статичного блоку</translate>
+
+    <translate keyword="glb_none">[нічого не обрано]</translate>
+    <translate keyword="glb_all">Всі</translate>
+    <translate keyword="glb_empty">Перелік порожній</translate>
+
+    <translate keyword="glb_now">щойно</translate>
+
+    <translate keyword="glb_type">Тип</translate>
+    <translate keyword="glb_status">Статус</translate>
+
+    <!-- pager -->
+    <translate keyword="glb_pgr_prv">← назад</translate>
+    <translate keyword="glb_pgr_nxt">вперед →</translate>
+    <translate keyword="glb_pgr_fst">← початкова</translate>
+    <translate keyword="glb_pgr_lst">остання →</translate>
+    <!-- ^pager^ -->
+
+    <!-- dates -->
+    <translate keyword="MONTH" ident="1">січня</translate>
+    <translate keyword="MONTH" ident="2">лютого</translate>
+    <translate keyword="MONTH" ident="3">березня</translate>
+    <translate keyword="MONTH" ident="4">квітня</translate>
+    <translate keyword="MONTH" ident="5">травня</translate>
+    <translate keyword="MONTH" ident="6">червня</translate>
+    <translate keyword="MONTH" ident="7">липня</translate>
+    <translate keyword="MONTH" ident="8">серпня</translate>
+    <translate keyword="MONTH" ident="9">вересня</translate>
+    <translate keyword="MONTH" ident="10">жовтня</translate>
+    <translate keyword="MONTH" ident="11">листопада</translate>
+    <translate keyword="MONTH" ident="12">грудня</translate>
+    <!-- ^dates^ -->
+
+    <translate keyword="glb_sitename">Striped 2 - інструмент для створення сайтів</translate>
+    <translate keyword="glb_deleted">Видалено</translate>
+    <translate keyword="glb_saved">Зміни збережені</translate>
+    <translate keyword="glb_403">У доступі відмовлено</translate>
+    <translate keyword="glb_404">Сторінка загубилася :(</translate>
+    <translate keyword="glb_none">[нічого не обрано]</translate>
+    <translate keyword="glb_all">Всі</translate>
+    <translate keyword="glb_empty">Список порожній</translate>
+    <translate keyword="glb_nothing_chosen">Нічого не обрано</translate>
+
+    <translate keyword="glb_scs_close">
+        Операція виконана!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$('.overclose').trigger('click');
+        &lt;/script&gt;
+    </translate>
+    <translate keyword="glb_scs_reload">
+        Операція виконана!
+        &lt;script type="text/javascript"&gt;
+            window.parent.location.reload();
+        &lt;/script&gt;
+    </translate>
+    <translate keyword="glb_scs_reload_on_close">
+        Операція виконана!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$.fn.setReloadAfter(true);
+        &lt;/script&gt;
+    </translate>
+
+    <translate keyword="glb_scs_comment">
+        Коментар відредаговано!
+        &lt;script type="text/javascript"&gt;
+            window.parent.$.fn.reloadComment(%u, %s);
+        &lt;/script&gt;
+    </translate>
+
+    <!-- forms -->
+    <translate keyword="frm_submit">Надіслати</translate>
+    <translate keyword="frm_cancel">Відмінити</translate>
+    <translate keyword="frm_captcha">Перевірочне слово</translate>
+    <translate keyword="frm_captcha_dscr">Введіть відображені на малюнку символи</translate>
+    <translate keyword="frm_err_required_AJAX">Поле має бути заповнене</translate>
+    <translate keyword="frm_err_str_min_AJAX">Має бути {0} символів або більше</translate>
+    <translate keyword="frm_err_str_max_AJAX">Має бути {0} символів або менше</translate>
+    <translate keyword="frm_multifiles">додати вкладення</translate>
+    <translate keyword="frm_multifields">додати</translate>
+    <translate keyword="frm_link">файл</translate>
+    <translate keyword="frm_err_datetime">Значення поля "%title" має бути у форматі дата-час - yyyy-mm-dd hh:mm:ss</translate>
+    <translate keyword="frm_err_captcha">Введені вами символи не відповідають перевірочному слову. Спробуйте ще</translate>
+    <translate keyword="frm_err_email">Значення поля "%title" має бути e-mail адресою</translate>
+    <translate keyword="frm_err_email_AJAX">Значення поля має бути e-mail адресою</translate>
+    <translate keyword="frm_err_required">Поле "%s" має бути заповнене</translate>
+    <translate keyword="frm_err_linked">Значення поля "%s" має бути тотожним зі значенням поля "%s"</translate>
+    <translate keyword="frm_err_phone">Значення поля "%title" має бути телефонним номером</translate>
+    <translate keyword="frm_err_str_range">Довжина значення поля "%title" має бути %0 символів або більше, проте меншою за %1 символів</translate>
+    <translate keyword="frm_err_str_min">Довжина значення поля "%title" має бути %0 символів або більше</translate>
+    <translate keyword="frm_err_str_max">Довжина значення поля "%title" має бути меншою за %0 символів</translate>
+    <translate keyword="frm_err_int_range">Значення поля "%title" має бути %0 або більшим, проте меншим за %1</translate>
+    <translate keyword="frm_err_int_min">Значення поля "%title" має бути %0 або більшим</translate>
+    <translate keyword="frm_err_int_max">Значення поля "%title" має бути меншим за %0</translate>
+    <translate keyword="frm_errs_warn">Увага! Деякі форми нижче мають помилки!</translate>
+    <translate keyword="upl_wrong_type">Неправильний тип файлу (%s)</translate>
+    <translate keyword="upl_no_img_cls">Класс Image не ініціалізований</translate>
+    <translate keyword="upl_err_1">The uploaded file exceeds the upload_max_filesize directive in php.ini</translate>
+    <translate keyword="upl_err_2">The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form.</translate>
+    <translate keyword="upl_err_3">The uploaded file was only partially uploaded.</translate>
+    <translate keyword="upl_err_4">No file was uploaded.</translate>
+    <translate keyword="upl_err_6">Missing a temporary folder.</translate>
+    <translate keyword="upl_err_7">Failed to write file to disk.</translate>
+    <translate keyword="upl_err_8">File upload stopped by extension.</translate>
+    <translate keyword="upl_done_photo">Фото завантажено (%s)</translate>
+    <translate keyword="upl_done">Файл завантажено (%s)</translate>
+    <translate keyword="upl_finished">&lt;b&gt;Завантаження закінчилося&lt;/b&gt;</translate>
+    <!-- ^forms^ -->
+</translates>

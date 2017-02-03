@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form method="post" title="" label="AUTH_FRG_TITLE" ajax="none">
+    <fieldgroup name="main">
+        <field name="login" type="text" disabled="1">
+            <title>au_lb_login</title>
+        </field>
+        <field name="password" type="password" required="1">
+            <title>AUTH_FRG_PASSWORD</title>
+        </field>
+        <field name="cpassword" type="password" required="1" linkedto="password">
+            <title>AUTH_FRG_CPASSWORD</title>
+        </field>
+        <field type="buttonset">
+            <title />
+            <buttons>
+                <button type="submit" name="submit" title="frm_submit" />
+            </buttons>
+        </field>
+    </fieldgroup>
+</form>

@@ -1,0 +1,183 @@
+/* $Id: forms.css 4 2011-01-20 10:45:27Z tigra $ */
+/* FORMS */
+fieldset {
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #acf;
+    display: block;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+    fieldset legend {
+        padding: 5px; 
+        border: 1px solid #acf;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -khtml-border-radius: 3px;
+        border-radius: 3px;
+    }
+    fieldset .field {
+        width: 100%;
+        padding: 5px 0;
+        border-bottom: 1px solid #eaefff;
+    }
+    fieldset div.field:hover {
+        background: #ffe;
+    }
+    
+        fieldset .field .title {
+            width: 20%;
+            padding-left: 2px;
+            float: left;
+        }
+        fieldset .field .description {
+            font-size: 80%;
+        }
+        fieldset .field .control {
+            width: 79%;
+            float: right;
+        }
+            fieldset .field .control .division {
+                font-weight: bold;
+                margin: 5px 0 0 0;
+            }
+            fieldset .field .control .image-container {
+                float: left;
+                margin: 3px 10px 3px 0;
+            }
+            
+            fieldset .field .control label.deleted {
+                color: lightgray;
+            }
+            
+            fieldset .field .control label.error {
+                display: block;
+            }
+            fieldset .field .control input.text {
+                width: 95%;
+                padding: 1px 3px;
+            }
+            fieldset .field .control input.microtext {
+                width: 25px;
+                padding: 1px 3px;
+            }
+            fieldset .field .control textarea {
+                width: 95%; height: 300px;
+                padding: 3px;
+								font-family: ubuntu mono, terminus, consolas, lucida console, monospace;
+            }
+            fieldset .field .control select {
+                width: 95%
+            }
+            fieldset .field .control .file-input {
+                margin-bottom: 5px; padding-bottom: 5px;
+                border-bottom: 1px dotted #eaefff;
+            }
+            fieldset .field .control a {
+                margin-left: 10px;
+            }
+    fieldset .errorfield {
+        color: #d00;
+    }
+        fieldset .errorfield input,
+        fieldset .errorfield select,
+        fieldset .errorfield textarea {
+            border-color: red;
+        }
+
+/* FORM HOVERS */
+textarea,
+input.text,
+select {
+    border: 1px solid #c8ced7;
+    outline: 1px solid #fff;
+    background-color: #fff;
+    -moz-outline-radius: 3px;
+    -webkit-outline-radius: 3px;
+    -khtml-outline-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    outline-radius: 3px;
+    border-radius: 3px;
+}
+textarea:hover,
+input:hover,
+select:hover {
+    outline-color: #e8eef7;
+}
+textarea:focus,
+input:focus.text,
+select:focus {
+    outline-color: #9cf;
+    background-color: #ffe;
+    color: #111;
+}
+
+/* short view */
+.short-view .field.text {
+    width: 100%!important;
+}
+	.short-view .field.text input {
+	    width: 97%!important;
+	}
+	.short-view .field.short-field {
+		width: 66%!important;
+		float: left;
+	}
+	.short-view .field.button {
+	    width: 30%!important;
+	}
+		/*.short-view .field.button .submit,
+		.short-view .field.button .button {
+			float: right;
+			width: 100%;
+            padding: 1px 3px;
+			font-size: 11px;
+		    width: 100%!important;
+		    border: 1px solid #c8ced7;
+		    outline: 1px solid #fff;
+		    background-color: #fff;
+		    -moz-outline-radius: 3px;
+		    -webkit-outline-radius: 3px;
+		    -khtml-outline-radius: 3px;
+		    -moz-border-radius: 3px;
+		    -webkit-border-radius: 3px;
+		    -khtml-border-radius: 3px;
+		    outline-radius: 3px;
+		    border-radius: 3px;
+		}*/
+
+.multifile,
+.multifield,
+.multiamountselect {
+    cursor: pointer;
+    display: block;
+    background-color: #effaff;
+    border: 1px solid #cef;
+    width: 150px;
+    text-align: center;
+    padding: 3px 0 3px 0;
+    margin-top: 5px;
+    color: #27a;
+}
+.multifile:hover,
+.multifield:hover {
+    background-color: #EEFFEE;
+}
+.multifilekill,
+.multifieldkill {
+    cursor: pointer;
+    background-color: #fdd;
+    border: 1px solid #faa;
+    margin-left: 10px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 5px;
+    color: #f33;
+}
+.hiddenfield {
+    display: none;
+}
